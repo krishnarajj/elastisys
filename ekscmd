@@ -1,0 +1,19 @@
+ Install kubeclt, EKSCTL, AWSCLI and COfigure aws cli with IAM USER
+
+ https://docs.aws.amazon.com/eks/latest/userguide/eksctl.html
+ https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
+
+
+
+
+ eksctl create cluster \
+ --name elastisys \
+ -region us-east-1 \
+ --nodegroup-name elastinodes 
+ --node-type t2.micro 
+ --nodes  2
+ --nodes-min 2
+ --nodes-max
+ --managed
