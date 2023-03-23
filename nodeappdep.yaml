@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: node-app-container
-          image: docker pull public.ecr.aws/g0s4g8j9/elastisys/nodeapp:latest
+          image: public.ecr.aws/g0s4g8j9/elastisys/nodeapp:latest
           ports:
             - containerPort: 3000
 
